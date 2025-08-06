@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Istamov | Loopstudios landing page</title>
+</head>
+<body>
+
+  <header>
+    <div class="header-content">
+      <img src="images/logo.svg" alt="logo">
+
+      <nav class="header-nav">
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Support</a></li>
+        </ul>
+      </nav>
+
+      <img width="30" height="30" onclick="toggleMenu()" class="toggle-menu" src="images/icon-hamburger.svg" alt="toggle menu">
+      
+
+    </div>
+  </header>
+
+  <div class="mobile-menu">
+    <div class="menu-header">
+      <img src="images/logo.svg" alt="menu logo">
+      <img width="30" height="30" class="toggle-menu" onclick="toggleMenu()" src="images/icon-close.svg" alt="close menu">
+    </div>
+
+    <nav class="menu-nav">
+      <ul>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">CAREERS</a></li>
+        <li><a href="#">EVENTS</a></li>
+        <li><a href="#">PRODUCTS</a></li>
+        <li><a href="#">SUPPORT</a></li>
+      </ul>
+    </nav>
+
+  </div>
+
+  <main>
+    <section class="hero">
+      <div class="dark-bg"></div>
+      <img class="hero-bg" src="images/desktop/image-hero.jpg" alt="hero background">
+      <div class="hero-content">
+        <h1>IMMERSIVE EXPERIENCES THAT DELIVER</h1>
+      </div>
+    </section>
+
+    <section class="about">
+
+      <div class="about-content">
+        <img src="images/desktop/image-interactive.jpg" alt="about image">
+
+        <div class="about-text">
+          <h1>THE LEADER IN INTERACTIVE VR</h1>
+          <p>Founded in 2011, Loopstudios has been producing world-class virtual reality 
+            projects for some of the best companies around the globe. Our award-winning 
+            creations have transformed businesses through digital experiences that bind 
+            to their brand.</p>
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="projects">
+      <div class="projects-content">
+        <div class="projects-header">
+          <h1>OUR CREATIONS</h1>
+          <a class="projects-btn-desktop" href="#">SEE ALL</a>
+        </div>
+        <div class="project-cards">
+
+          <div class="project-card">
+            <div class="card-content">
+              <h1>DEEP EARTH</h1>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="card-content">
+              <h1>NIGHT ARCADE</h1>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="card-content">
+              <h1>SOCCER TEAM VR</h1>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="card-content">
+              <h1>THE GRID</h1>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="card-content">
+              <h1>FROM UP ABOVE VR</h1>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="card-content">
+              <h1>POCKET BOREALIS</h1>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="card-content">
+              <h1>THE CURIOSITY</h1>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="card-content">
+              <h1>MAKE IT FISHEYE</h1>
+            </div>
+          </div>
+
+        </div>
+
+        <a class="projects-btn-mobile" href="#">SEE ALL</a>
+      </div>
+    </section>
+
+  </main>
+
+
+  <footer>
+    <div class="footer-content">
+      <div class="logo-footer">
+        <img src="images/logo.svg" alt="footer logo">
+
+        <nav class="footer-nav">
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Support</a></li>
+          </ul>
+        </nav>
+
+      </div>
+
+      <div class="socials-copyright">
+        <div class="social-icons">
+          <img width="35" height="35" src="images/icon-facebook.svg" alt="">
+          <img width="35" height="35" src="images/icon-twitter.svg" alt="">
+          <img width="35" height="35" src="images/icon-pinterest.svg" alt="">
+          <img width="35" height="35" src="images/icon-instagram.svg" alt="">
+        </div>
+
+        <p>© 2021 Istamov. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
